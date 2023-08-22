@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTA DE TAREAS</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+
+    <section class="cuerpo">
+        <h1 class="titulo">Todo List</h1>
+
+        <hr class="linea">
+
+        <div class="input">
+            <div class="input-group mb-4">
+             <input type="text" class="form-control" placeholder="Asigna Una Tarea" id="texto">
+             <button class="btn btn-success" type="button" id="boton">Ingresar Tarea</button>
+            </div>
+
+        </div>
+
+        <section class="tareas_resultados">
+
+            <div class="resultados">
+                <hr>
+                <p> Total:<span id="total"> 0</span></p>
+                <p> Realizados:<span id="realizados"> 0</span></p>
+            </div>
+            <div class="tareas">
+                <div class="titulos">
+                    <h4>ID</h4>
+                    <h4>TAREA</h4>
+                </div>
+
+                <div class="seccion_resultados" id="seccion_resultados"></div>
+                
+            
+            </div>
+
+        </div>
+        <div class="btnEliminar" id="btnEliminar"></div>
+
+        </section>
+
+    </section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="./js/metodos_arreglos.js"></script>
+</body>
+</html>
+
+
